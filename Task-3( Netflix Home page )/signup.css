@@ -1,0 +1,174 @@
+/* Use the same CSS styles as provided for the login page */
+@import url('https://fonts.cdnfonts.com/css/netflix-font');
+* {
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Netflix Font', sans-serif;
+}
+
+body {
+    background-image: url(netflix-image.jpg);
+    background-color: rgb(255, 255, 255);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    filter: drop-shadow(1rem 1rem 1rem rgba(0, 0, 0, 0));
+    height: 100vh; /* Ensure the body covers the entire viewport height */
+    margin: 0;
+}
+
+header {
+    display: flex;
+    margin-left: 10px;
+}
+
+.language {
+    margin-top: 55px;
+    margin-left: 1100px;
+}
+
+#language {
+    width: 100px;
+    font-size: 18px;
+    font-weight: bolder;
+    text-align: center;
+    background-color: transparent;
+    color: aliceblue;
+    border: 1px solid aliceblue;
+    border-radius: 3px;
+}
+
+option {
+    background-color: transparent;
+    color: black;
+}
+
+#signup {
+    margin-top: -150px;
+    margin-left: 350px;
+    position: relative;
+    color: rgb(238, 236, 236);
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 570px;
+    width: 800px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    top: 18vh;
+    justify-content: flex-start;
+    padding: 10px 10px 20px 10px;
+    align-items: center;
+}
+#para-1{
+    margin-left: 10px;
+    margin-bottom: -150px;
+}
+#signup p {
+    color: #f4efef;
+    font-size: 32px;
+    font-weight: bolder;
+    margin-bottom: 30px;
+}
+
+#signup form input[type=text],#signup form input[type=password], #signup form input[type=tel], #signup form input[type=email] {
+    height: 30px;
+    margin-bottom: 25px;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 1);
+    padding-left: 10px;
+    font-size: 16px;
+    padding: 10px 10px 10px 20px;
+    font-size: 15px;
+    width: 300px;
+    color:whitesmoke
+}
+
+#signup form input[type=tel] {
+    margin-bottom: 40px;
+}
+
+#signup form input[type=text]:focus,#signup form input[type=password]:focus, #signup form input[type=tel]:focus, #signup form input[type=email]:focus {
+    outline: none;
+    border: 1px solid rgb(248, 243, 243);
+    box-shadow: 0 0 5px #719ECE;
+    caret-color: rgb(233, 227, 227);
+}
+.label{
+    background-color: rgba(0, 0, 0, 1);
+    color:rgb(125, 123, 123);
+    height:30px;
+    width: 320px;
+    border-radius: 5px;
+    font-size: 15px;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+#signup-button {
+    background-color: red;
+    color: #FFFFFF;
+    font-size: 15px;
+    font-weight: bolder;
+    border-radius: 5px;
+    margin-bottom: -100px;
+    border: none;
+    height: 45px;
+    width: 330px;
+}
+
+#signup-button:hover {
+    background-color: rgb(201, 20, 20);
+    cursor: pointer;
+}
+
+/* Add styles for the dropdown */
+.signup{
+    margin-top: -30px;
+    margin-left: 100px;
+}
+.signup select {
+    height: 50px;
+    margin-bottom: 25px;
+    color: #FFFFFF;
+    border-radius: 5px;
+    background-color: #e40808;
+    padding-left: 10px;
+    font-size: 25px;
+    padding: 10px 10px 10px 20px;
+    font-size: 15px;
+    width: 340px;
+}
+.signup select:hover {
+    background-color: #FFFFFF;
+    color: #ff0000;
+}
+
+option{
+    color: #FFFFFF;
+    background-color: #e40808;
+}
+option:hover{
+    background-color: #FFFFFF;
+    color: #ff0000;
+}
+#pack-para{
+    margin-top: -100px;
+    margin-left: 10px;
+    margin-right: -150px;
+    color: #ff0000;
+}
+
+#copy{
+    margin-top: 150px;
+    color: #f8f8f8;
+    text-align: center;
+}
+#copy a{
+    text-decoration: none;
+    color:red;
+    transition: 0.5s;
+    font-size: 20px;
+}
+#copy a:hover{
+    color:rgb(201, 20, 20);
+}

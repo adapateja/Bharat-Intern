@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix Sign Up</title>
+    <link rel="stylesheet" href="signup.css">
+</head>
+<body>
+    <header>
+        <div class="title">
+            <img src="title.png" alt="Netflix" height="130px">
+        </div>
+        <div class="language">
+            <select id="language">
+                <option value="en">English</option>
+                <option value="en">Hindi</option>
+                <option value="es">Spanish</option>
+                <option value="fr">French</option>
+                <option value="de">German</option>
+                <option value="ja">Japanese</option>
+            </select>
+        </div>
+    </header>
+    <hr>
+    <div id="signup">
+        <form>
+        <div>
+        <p id="para-1">Sign Up</p>
+            <input type="text" placeholder="Name">
+            <input type="tel" placeholder="Phone Number">
+            <input type="email" placeholder="Email">
+            <input type="text" placeholder="Username">
+            <input type="password" placeholder="Password">
+            <input type="password" placeholder="Confirm password">
+        </form>
+        </div>
+        <div class="signup">
+            <form action="otp.html">
+            <br><br><br><br><br><br><br><br>
+            <p id="pack-para">Select your Package</p>
+            <select id="package" name="package">
+                <option>Click here for pacakages</option>
+                <option value="100">99 Rs</option>
+                <option value="200">200 Rs<s/option>
+                <option value="300">300 Rs</option>
+                <option value="400">400 Rs</option>
+            </select><br>
+            <br>
+            <div class="label">Enter your date of birth</div><br>
+            <input type="date" style="margin-bottom:20px ;" name="" id="dob">
+            <div class="label">Select profile picture</div><br>
+            <input type="file" style="margin-bottom:10px ;" id="profile"><br><br><br<br>
+            <input type="submit" value="Sign Up" id="signup-button">
+        </form>
+        </div>
+            
+    </div>
+    <div id="copy">
+        <p>&copy;copyright | <a href="https://www.linkedin.com/in/santhi-tejeswara-rao-adapa-600588250/" target="_blank">Santhi Tejeswara Rao Adapa</a> | 2023</p>
+    </div>
+</body>
+</html>
